@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css"> 
+    <title>portfolio</title>
+</head>
+<body>
+ 
+   <div class="navbar">
+       <img src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-2.png" alt="logo">
+       <div class="navbtn">
+           <a href="#" onclick="homebtn()">Home</a>
+           <a href="#" onclick="contactbtn()">Contact</a>
+           <a href="#" onclick="aboutbtn()">About</a>
+       </div>
+    </div>
+    <div id="home">
+    <div class="sun">
+           <img src="https://www.freeiconspng.com/thumbs/earth-png/planet-earth-png-8.png" alt="">
+           <div class="bigtext">GET WEATHER'S</div>
+           <div class="smalltext"><i>"knowledge"</i></div>
+           <button onclick="herebtn()">Here</button>
+    </div>
+  </div>
+  <div id="here" class="hidden">
+   <div class="weathercontainer">
+     <input type="text" id="search" placeholder="Enter the city name">
+     <div id="searchbtn">Search</div>
+     
+   </div>
+   <div id="conditioncontainer">
+
+   </div>
+  </div>
+ <div id="contact" class="hidden">
+    <img src="contact.png" alt="calling-png-clipart">
+    <div id="contactus">CONTACT US</div>
+    <div id="number">9812316513</div>
+    <a href="mailto: princebajagain@gmail.com" id="contacthere">Here</a>
+
+ </div>
+ <div id="about" class="hidden">
+    <img src="https://www.ucsmyeik.edu.mm/storage/2018/11/os.png" alt="">
+    <div id="aboutus">ABOUT US</div>
+    <div id="para">We are the web developers with <br>
+        awesome ideas of web dev.This <br>
+        website is  literally created <br>
+        using only html,css and js. <br>
+    </div>
+    <a href="mycv.txt" download id="more">More</a>
+ </div>
+
+
+</body>
+<script src="main.js"></script>
+</html>
