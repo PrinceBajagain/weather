@@ -41,7 +41,7 @@ search.addEventListener('click',function(){
         var conditionvalue = data['weather'][0]['description'];
 
         namecity.innerHTML = nameval;
-        tempcity.innerHTML = tempvalue+"degree Fahrenheit";
+        tempcity.innerHTML = tempvalue+"K";
         conditioncity.innerHTML = conditionvalue;
 
     })
