@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+.navbar {
+    background-color :rgb(2, 7, 32);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 6vh;
+}
+.hidden{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vh;
+}
+.navbtn a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+}
+.navbtn a:hover{
+    color:rgba(137, 219, 44, 0.876) ;
+}
+.navbar img {
+    width: 5vw;
+    height: 6vh;
+    color: yellow;
+    margin: 3vw;
+    cursor: pointer;
+}
+.sun{
+    height: 94vh;
+    background-color: rgb(2, 7, 32);
+    width: 100vw;
+}
+.sun img {
+    height: 96vh;
+    width: 70vh;
+    position: absolute;
+    left: -25vh;
+}
+body{
+    overflow: hidden;
+}
+.bigtext {
+    position: absolute;
+    top: 30%;
+    right: 26%;
+    font-size: 2.4rem;
+    color: rgb(175, 139, 180);
+    font-family: 'Cairo', sans-serif;
+}
+.smalltext{
+    position: absolute;
+    top: 42%;
+    right: 30%;
+    font-size: 2.2rem;
+    color: rgb(185, 86, 86);
+    font-family: 'Cairo', sans-serif;
+
+}
+button {
+    position: absolute;
+    top: 54%;
+    right: 36%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(66, 160, 66);
+    border: 2px solid rgb(66, 160, 66) ;
+    border-radius: 10px;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+
+
+}
+button:hover{
+    color: black;
+    border: 2px solid rgb(2, 24, 39);
+    background-color: white;
+}
+#search{
+    margin-top: 10vh;
+}
+#searchbtn{
+    margin-top: 10vh;
+    margin-left: 2vh;
+    border: 2px solid rgb(29, 144, 29);
+    border-radius: 5px;
+    background-color: rgb(29, 144, 29);
+    color: white;
+    font-family: 'Cairo', sans-serif;
+}
+#searchbtn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.weathercontainer{
+  display: flex;
+  justify-content: center;
+}
+#here{
+    background-color: rgb(2, 7, 32);
+    height: 100vh;
+}
+#conditioncontainer{
+    background: white;
+    width: 25vw;
+    height: 60vh;
+    margin-top: 6vh;
+    margin-left: 38vw;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+    flex-direction: column;
+
+}
+input::placeholder{
+    opacity: 0.5;
+}
+#contact{
+  background: rgb(2, 7, 32) ;
+  width: 100vw;
+  height: 100vh;
+}
+#contact img {
+  position: absolute;
+  right: 0;
+  margin-top: 10vh;
+  height: 80vh;
+  width: 40vw;
+}
+#contactus{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 30vh;
+    left: 15vw;
+    font-family: 'Cairo', sans-serif;
+}
+#number{
+    position: absolute;
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: 0.5vw;
+    top: 40vh;
+    left: 15.5vw;
+    font-family: 'Cairo', sans-serif;
+}
+#contacthere{
+    position: absolute;
+    color: white;
+    background: rgb(49, 144, 49);
+    border: 4px solid rgb(49, 144, 49) ;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    top: 50vh;
+    left: 20vw;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+}
+#contacthere:hover{
+    color: black;
+    background: white;
+    border: 4px solid white ;
+}
+#about{
+    background: rgb(2, 7, 32);
+    width: 100vw;
+    height: 100vh;
+}
+#about img {
+    position: absolute;
+    right: 2vw;
+    top: 20vh;
+    height: 60vh;
+    width: 50vw;
+}
+#aboutus{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    top: 30vh;
+    left: 15vw;
+    font-family: 'Cairo', sans-serif;
+}
+#para{
+    position: absolute;
+    color: white;
+    font-size: 1.3rem;
+    top: 40vh;
+    left: 15.5vw;
+    font-family: 'Cairo', sans-serif;
+}
+#more{
+    position: absolute;
+    color: white;
+    font-size: 1.3rem;
+    top: 70vh;
+    left: 20vw;
+    background: rgb(61, 129, 61);
+    border: 5px solid rgb(61, 129, 61);
+    border-radius: 10px;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+}
+#more:hover{
+    color: black;
+    background: white;
+    border: 5px solid white;
+}
+
+@media (max-width:990px){
+    .sun{
+      background: transparent;
+   
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+    }
+    .sun img {
+        display: none;
+    }
+    #home{
+        background-image: url('https://coolwallpapers.me/picsup/3065929-air_atmosphere_background_beautiful_blue_climate_clouds_fluffy_image_landscape_nature_no-people_outdoors_photography_season_sky_space_spring_summer_texture_weather_white.jpg') ;
+        background-size: cover;
+        width: 100vh;
+        height: 100vh;
+    }
+    .smalltext{
+        color: rgb(90, 64, 15);
+        top: 38%;
+        left: 40%;
+    }
+    .bigtext{
+        color: rgb(255, 0, 0);
+        left: 35%;
+    }
+    button{
+        top: 48%;
+        left: 45%;
+    }
+}
+@media (max-width:698px){
+    .bigtext{
+        white-space: nowrap;
+        display: inline-block;
+        font-size: 1.4rem;
+    }
+
+    .smalltext{
+        font-size: 1rem ;
+    }
+    button{
+        font-size: 1rem;
+    }
+    #about img {
+        display: none;
+    }
+    #aboutus {
+        font-size: 1.4rem;
+    }
+    #para{
+        font-size: 1rem;
+    }
+    #more{
+        font-size: 1rem;
+    }
+
+    #conditioncontainer{
+        width: 90vw;
+        position: absolute;
+        left: 5vw;
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+    input{
+        width: 90vw;
+    }
+  
+    html{
+        overflow: hidden;
+    }
+}
+@media (max-height:414px){
+    #home{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .smalltext{
+        font-size: 1rem ;
+        margin-top: 3vh;
+    }
+    button{
+        font-size: 1rem;
+        margin-top: 3vh;
+    }
+    #about img {
+        display: none;
+    }
+    #aboutus {
+        font-size: 1.2rem;
+        margin-bottom: 4vh;
+    }
+    #para{
+        font-size: 1rem;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+    #more{
+        position: relative;
+        font-size: 0.6rem;
+        top: 84vh;
+    }
+    #number{
+        margin-top: 4vh;
+    }
+    #contacthere{
+        margin-top: 4vh;
+    }
+
+    #conditioncontainer{
+        width: 90vw;
+        position: absolute;
+        left: 5vw;
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+    input{
+        width: 90vw;
+    }
+  
+    html{
+        overflow: hidden;
+    }
+}
