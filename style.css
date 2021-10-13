@@ -236,6 +236,7 @@ input::placeholder{
     #home{
         background-image: url('https://coolwallpapers.me/picsup/3065929-air_atmosphere_background_beautiful_blue_climate_clouds_fluffy_image_landscape_nature_no-people_outdoors_photography_season_sky_space_spring_summer_texture_weather_white.jpg') ;
         background-size: cover;
+        background-repeat: repeat;
         width: 100vh;
         height: 100vh;
     }
