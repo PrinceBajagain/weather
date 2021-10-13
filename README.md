@@ -1,2 +1,2 @@
 # weather
-a [tapaikoweather.netlify.app]
+a [https://tapaikoweather.netlify.app]
