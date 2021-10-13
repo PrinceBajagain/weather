@@ -293,6 +293,10 @@ input::placeholder{
     html{
         overflow: hidden;
     }
+    #home{
+        width: 100vw;
+        height: 100vh;
+    }
 }
 @media (max-height:414px){
     #home{
